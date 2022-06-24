@@ -1,0 +1,8 @@
+Blue Euro 42  ------------------------- Ctrl + Win + Alt + 2
+Blue Euro 50  ------------------------- Ctrl + Win + Alt + 0
+Blue Euro 47  ------------------------- Ctrl + Win + Alt + 7
+Blue Powertrac 439 ------------------ Ctrl + Win + Alt + 9
+Blue Powertrac 435 ------------------ Ctrl + Win + Alt + 5
+Blue Powertrac 439 RDX ------------- Ctrl + Win + Alt + 3
+Blue Powertrac 439DS PLS 2WD ----- Ctrl + Win + Alt + d
+Blue Powertrac 439 DSPLS ALT4000 - Ctrl + Win + Alt + 4
