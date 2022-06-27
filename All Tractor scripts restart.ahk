@@ -3,7 +3,7 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance force
-Esc::
++Esc::
 
 MsgBox, 4, Close Autofill
 IfMsgBox, No
@@ -26,6 +26,8 @@ if WinExist(Blue Powertrac 439DS PLS 2WD.ahk)
     WinClose ; Use the window found by WinExist.
 if WinExist(Tractor Insurance.ahk)
     WinClose ; Use the window found by WinExist.
+if WinExist(Blue Powertrac 434.ahk)
+    WinClose ; Use the window found by WinExist.
 
 Send, ^r
 
@@ -39,3 +41,4 @@ Run, C:\Users\WELCOME\files\AutoHotkey\Tractors\Blue Powertrac 439.ahk
 Run, C:\Users\WELCOME\files\AutoHotkey\Tractors\Blue Powertrac 439DS PLS 2WD.ahk
 Run, C:\Users\WELCOME\files\AutoHotkey\Tractor Insurance.ahk
 Run, C:\Users\WELCOME\files\AutoHotkey\Tractors\Blue Powertrac 439DS PLS 2WD.ahk
+Run, C:\Users\WELCOME\files\AutoHotkey\Tractors\Blue Powertrac 434.ahk

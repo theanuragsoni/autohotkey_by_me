@@ -10,37 +10,37 @@ Send, {Tab}{Down}
 
 
 ; Wait for loading to finish
-MsgBox Press Enter after loading
+MsgBox Press Space after loading
 
 
 ; Select Vehicle Class Type (Tractor)
 Send, {Tab}{Down}
 
 ; Wait for loading to finish
-MsgBox Press Enter after loading
+MsgBox Press Space after loading
 
 
 ; Select Manufacturer (Escorts LTD)
 Send, {Tab 2}{Down}
 
 ; Wait for loading to finish
-MsgBox Press Enter after loading
+MsgBox Press Space after loading
 
 ;Model (Euro 42)
-Send, {Tab 2}e{Down 37}
+Send, {Tab 2}e{Down 38}
 
 ;Fuel (Diesel)
 Send, {Tab}d
 
 ;color (Blue)
-Send, {Tab}b{Down 120}
+Send, {Tab}b{Down 121}
 
 ;Steering (Power)
 Send, {Tab}p
 
 
 ;Wait for loading to finish
-MsgBox Press Enter after loading
+MsgBox Press Space after loading
 
 
 
@@ -73,6 +73,8 @@ Send, {Tab}
 FormatTime, CurrentDateTime,, dd/MM/yyyy
 SendInput %CurrentDateTime%
 
+;Return to engine no. input field
+Send, {Shift down}{Tab 20}{Shift up}
 
 
 return

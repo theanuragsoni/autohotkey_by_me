@@ -6,3 +6,4 @@ Blue Powertrac 435 ------------------ Ctrl + Win + Alt + 5
 Blue Powertrac 439 RDX ------------- Ctrl + Win + Alt + 3
 Blue Powertrac 439DS PLS 2WD ----- Ctrl + Win + Alt + d
 Blue Powertrac 439 DSPLS ALT4000 - Ctrl + Win + Alt + 4
+Blue Powertrac 55 Next -------------- Ctrl + Win + Alt + n
